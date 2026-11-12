@@ -1,0 +1,12 @@
+### teste de cadastro do usuário
+
+POST http://localhost:3000/usuario
+Content-Type: application/json
+
+{
+    "nome": "Marcos",
+    "email": "marcos@gmail.com",
+    "cpf": "123.456.789-12",
+    "telefone": "47-98877-6655"
+
+}
